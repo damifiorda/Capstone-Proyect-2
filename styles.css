@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)),
+    url(./Imagenes/pexels-fabianwiktor-994605.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-hero,
+.parrafo-hero {
+  color: white;
+}
+.titulo-hero {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+.parrafo-hero {
+  font-size: 25px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.mi-perfil {
+  margin: 75px;
+}
+.mi-perfil img {
+  border-radius: 50%;
+}
+.mi-perfil h2 {
+  margin: 15px;
+}
+.mi-perfil p {
+  margin-bottom: 15px;
+  max-width: 350px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.habilidades p {
+  max-width: 250px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.habilidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+}
+.habilidades img {
+  width: 100%;
+}
+.skills h2 {
+  margin-bottom: 15px;
+}
+.contacto {
+  margin: 75px;
+}
+.contacto p {
+  max-width: 350px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+button {
+  font-size: 20px;
+}
+
+footer.contenedor-general {
+  flex-direction: row; /* Sobrescribe solo en el footer */
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 20px;
+}
+.pie-pagina {
+  background-color: black;
+}
+.pie-pagina a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.pie-pagina p {
+  color: white;
+}
